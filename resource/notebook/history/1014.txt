@@ -1,0 +1,9 @@
+sudo apt-get install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms
+fl.controls.TextArea
+fl.controls.RadioButton
+Bgimg addChild Cbgimg TextFormat
+move setSize setStyle horizontalScrollPolicy 
+RadioButton flash.display.Bitmap BitmapData Bg Cbg
+flash.utils.Timer TimerEvent.TIMER timeline 
+this.getChildAt setChildIndex KeyboardEvent ENTER_FRAME
+stage.frameRate

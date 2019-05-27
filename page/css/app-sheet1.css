@@ -1,0 +1,54 @@
+/**
+* @author: shadow
+* @filename: 
+*/
+html,
+body {
+    background: transparent;
+
+}
+
+body {
+
+    -webkit-app-region: drag;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: 0;
+}
+
+
+
+#cooltext {
+    font-size: 13px;
+    -webkit-app-region: no-drag;
+    -webkit-user-select: text;
+    color: #666;
+}
+
+
+
+.text-box {
+    position: absolute;
+    left: 12px;
+    -webkit-app-region: no-drag;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+body:hover .text-box {
+    opacity: 1;
+}
+
+
+
+.pause #filename {
+    color: red;
+    font-style: italic;
+}

@@ -1,0 +1,95 @@
+Specifying the DOCTYPE
+Specifying the Character Set
+Specifying the Language
+Optimizing <script>s and <link>s
+Adding Document Structure with HTML5’s New Elements
+Choosing Between <article> and <section>
+Checking Your Document Outline
+Modifying the Document Outline
+Emphasizing Text
+Adding Importance to Text
+Highlighting Text for Reference
+Marking Up Small Print
+Defining Acronyms and Abbreviations
+Adding Links to Block-Level Content
+Marking Up Figures and Captions
+Marking Up Dates and Times
+Setting the Stage for Native Expanding and Collapsing
+Controlling the Numbering of Your Lists
+Hiding Content to Show Later
+Making Portions of a Page Editable
+Setting the Stage for Native Drag-and-Drop
+Adding More Semantic Meaning
+Picking a Markup Style
+Understanding Browser Support for HTML5
+Making Internet Explorer Recognize HTML5 Elements
+Detecting HTML5 Features with JavaScript
+Using HTML5 Boilerplate
+Validating HTML5
+Mapping HTML5 Elements to ID and Class Names
+Displaying a Search Input Field
+Contact Information Input Fields
+Utilizing Date and Time Input Fields
+Number Inputs
+Selecting from a Range of Numbers
+Selecting Colors
+Creating an Editable Drop-Down
+Requiring a Form Field
+Autofocusing a Form Field
+Displaying Placeholder Text
+Disabling Autocomplete
+Restricting Values
+Making HTML5 Work in Older Browsers
+Validating Form Data in Older Browsers with JavaScript
+Example: Sample Form
+Adding HTML5 Audio
+Manipulating the Audio Stream
+Generating <audio> Using JavaScript
+Visualizing <audio> Using <canvas>
+Sample Design: Custom Audio Player
+Adding HTML5 Video
+Ensuring Multi-Browser Video Support
+Setting Video Dimensions
+Displaying a Placeholder Image Before Video Plays
+Making Video Loop
+Sample Design: Manipulating Video with <canvas>
+Adding Microdata to Markup
+Using Microdata and Schema
+Adding Custom Data to Markup
+Accessing Custom Data with JavaScript
+Manipulating Custom Data
+Example: Creating a Map Application Using Custom Data
+Writing Appropriate alt Text Descriptions
+Identifying Abbreviations and Acronyms
+Identifying Sections of a Page Using ARIA Landmark Roles
+Creating More Accessible Navigation Links
+Associating Form Fields with Their Labels
+Grouping Form Fields Logically
+Enabling a fieldset Dynamically
+Identifying Required Form Fields
+Using ARIA Live Regions to Announce When Dynamic Content Is Updating
+Getting Basic Geolocation Data
+Getting Basic Geolocation Data with a Fallback
+Reverse Geocoding an Address with Latitude and Longitude
+Converting an Address into Latitude and Longitude
+Getting Directions from the Current Location
+Example: Starbucks to Starbucks
+Drawing on a <canvas>
+Using Transparency
+Setting <canvas> Dimensions
+Using Gradients, Patterns, and Line Styles
+Pulling External Images into a <canvas> Drawing
+Setting Color Transformations
+Working with Geometric Transformations
+Placing Text on a <canvas>
+Clipping <canvas> Drawings
+Animating <canvas> Drawings
+Drawing Graphs with <canvas>
+Saving a <canvas> Drawing to a File
+Local Storage
+Application Caching
+Drag and Drop
+Web Workers
+Web Sockets
+History
+Local Files

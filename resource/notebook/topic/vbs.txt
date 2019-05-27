@@ -1,0 +1,45 @@
+@VBS
+VarType Abs
+Empty Win32_LogicalMemoryConfiguration
+Null Win32_Service Win32_NTLogEvent
+Boolean Array(arglist)
+Byte Asc(string) CBool(expression)
+Integer CCur(expression)  object.Sleep(intTime) 
+Currency CDate(date) object.Quit([intErrorCode])
+Long CDbl(expression) object.GetObject(strPathname [,strProgID], [strPrefix]) 
+Single Chr(charcode) object.CreateObject(strProgID[,strPrefix]) 
+Double DateAdd(interval, number, date)
+Date DateDiff(interval, date1, date2 [,firstdayofweek[, firstweekofyear]])
+String DatePart(interval, date[, firstdayofweek[, firstweekofyear]])
+Object DateSerial(year, month, day) 
+Error DateValue(date)
+Not Day(date) Exp(number) InStrRev(string1, string2[, start[, compare]]) 
+And Filter(InputStrings, Value[, Include[, Compare]]) 
+Or Set object.eventname = GetRef(procname)
+Xor InStr([start, ]string1, string2[, compare])
+Eqv Hex(number) InStrRev(string1, string2[, start[, compare]])
+Imp FormatPercent(expression[,NumDigitsAfterDecimal [,IncludeLeadingDigit [,UseParensForNegativeNumbers [,GroupDigits]]]])
+FormatCurrency( expression[,NumDigitsAfterDecimal [,IncludeLeadingDigit [,UseParensForNegativeNumbers [,GroupDigits]]]]) 
+FormatNumber(expression [,NumDigitsAfterDecimal [,IncludeLeadingDigit [,UseParensForNegativeNumbers [,GroupDigits]]]]) 
+IsArray(varname) IsEmpty(expression) IsNumeric(expression) Join(list[，delimiter]) 
+LBound(arrayname[, dimension]) LCase(string)
+Left(string, length)  Len(string | varname) LoadPicture(picturename)
+LTrim(string) RTrim(string) Trim(string) Mid(string, start[, length]) Now
+Replace(expression, find, replacewith[, compare[, count[, start]]])
+RGB(red, green, blue) Right(string, length) Rnd[(number)]
+Round(expression[, numdecimalplaces])
+Sgn(number) Space(number) Split(expression[, delimiter[, count[, start]]])
+Sqr(number) StrComp(string1, string2[, compare])
+String(number, character)
+StrReverse(string1) Timer TypeName(varname)
+UBound(arrayname[, dimension]) VarType(varname) object.Clear
+object.Raise(number, source, description, helpfile, helpcontext)
+object.Replace(string1, string2)
+object.Test(string) Erase array
+Randomize [number] 
+Property Set , Property Let ,Public Default Function Construtor(h, w)
+FileSystemObject, Drivers, Files, Folders, TextStream
+object.AppActivate title 
+object.CreateShortcut(strPathname) object.SendKeys(string)
+WshArguments,WScript
+

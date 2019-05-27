@@ -1,0 +1,40 @@
+@.NET
+15 types
+System.Window.Form
+PictureBox
+Toolbar,data entry, BindingSource, TableAdapter
+BindingNavigator, DataSet
+MessageBox.Show
+ErrorList snippets Color.FromArgb Application.DoEvents()
+static int, new Class(){[a=1,b=2]}
+type[] array 
+Random.Next(), Encapsulated
+public int property { get {}, set {}}
+class: superClass
+is as Interface
+public, protected, private, internal, sealed
+abstract
+List.Add, List.Remove. List.Contains, List.Count, List.Capacity
+List.Clear, List.RemoveAt
+ICompare.CompareTo Dictionary
+foreach
+Queue Stack
+Queue.Enqueue, Queue.Dequeue, Queue.Peek
+Stream.Seek Stream.Read Stream.Write, @filepath
+SaveFileDialog, OpenFileDialog, OpenDialog.Filter
+DialogResult File, Directory
+File.Exists, File.OpenRead, File.AppendAllText
+Fil.Create, File.GetLastAccessTime, ReadAllText, WriteAllText
+Directory.CreateDirectory, GetFiles, Delete
+IDispose, BinaryFormatter.Deserialize
+BinaryWriter, BinaryReader
+StreamReader.EndOfStream StreamReader.ReadBlock 
+EventArgs EventHandlers DrogEventArgs
+ListBox.AddRange Controls.Add Control.Location,  Control.Size
+Grahpics.DrawLine, FillRectangle, DrawRectangle
+DrawString, FillEllipse DragImage, DrawLines, DrawCurve
+InValidate Update Refresh
+DoubleBuffered
+~Class
+GC.Collect
+this Class obj

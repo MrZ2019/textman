@@ -1,0 +1,78 @@
+CORDOVA controlgroup data-type data-direction data-transition 
+data-rel="back"  data-corners data-mini data-shadow data-iconpos
+data-iconpos="notext" data-position="fixed" data-param-period image-slider
+mobileinit navigator.camera.PictureSourceType; 
+navigator.camera.DestinationType; pictureSource.PHOTOLIBRARY resolveLocalFileSystemURI
+fsys.lnk  io._exepath lnk.save fsys.getSpecial fsys.joinpath WshShell.CreateShortcut oShellLink.Hotkey
+oUrlLink.TargetPath   io.fullpath fsys.enum fsys.getTempDir() fsys.config; fsys.config("/res/config/")
+console.varDump  0x233/*_WM_DROPFILES*/  win.getDropFile(wParam )[1] process.isExe fsys.dlg.open()
+string.list file.readback() file.seek("end")  file.getTime(); tm.write.addhour(48) ftm = file.getFileTime(
+path = owner zlib.gzFile inet.whttp();
+http.get("http://www.sohu.com","Accept-Encoding:gzip, deflate")  zlib.gzUncompress fsys.unrar.extract
+zlib.unzip  zlib.unzip.extract zip.compress fsys.dirWat key.getStateXcher; process.explore
+ fsys.file.temp winform.onClose thread.create thread.event(" watching") win.util.changeNotification
+ process.execute_waitInput win.clip.write key.sendUnicode winex.waitActiv  process.popen("cmd.exe")
+  process.heap.eachList _STUDIO_INVOKED  fsys.lnk.search thread.wait
+  raw.remoteApi(processEntry.th32ProcessID,"string()","Kernel32.dll","GetCommandLineA") process.rundll
+  process.rundll("shell32.dll","Control_RunDLL sysdm.cpl,,3");
+  win.exec("rundll32.exe","user.exe,exitwindows"); win.invoke prcs.getPath prcs.eachModule() prcs.
+  readNumber thread.suspend thread.resume
+ IE line-height <!--[if lt IE 9]> html5shiv.js <source> 
+createLinearGradient createRadialGradient addColorStop Worker,terminate worker.onmessage
+text/event-stream $.remove(selector)
+.col-md-offset-* .col-md-push-* .col-md-pull-* 
+<kbd> <var> :nth-child(odd) .table-bordered table-hover .table-condensed 
+.form-control  
+prcs.remoteApi("void ( int hWnd, string &lpText,string &lpCaption ,INT uType )","User32.dll","MessageBoxA");
+  console.pause win.util.tray.pop key.hook()  mouse.click  key.hotkey(winform) 
+  winex.say hotkey.regStr winex.findActivate win.delay key.send key.pressEx win.msgboxTimeout
+mouse.wait();  sleep(1000) mouse.dragkey.wait  key.getStateX key.waitUp("A") key.capsLk key.getName
+ win.getForeground()  0x201/*_WM_LBUTTONDOWN*/ thread.event thread.manage thread.waitAll winform.modifyStyle thread.waitOne
+ thread.works thread.set win.clip.readBitmap() com.picture.fromBitmap process.explore_select 
+  inet.whttp().get  gdip.bitmap bitmagNew.getGraphics() drawImageRectRect winex.enumTop com.picture.snapClient gdip.bitmap(picture)
+Accelerometer Camera Capture Compass Connection Contacts Device Events File
+Geolocation Media Notification Storage
+attr(title)  data-role="navbar"  ui-state-persist data-role="collapsible"
+data-role="collapsible-set" data-inset="false" data-collapsed-icon="arrow-d"
+ui-grid-a  ui-block-a
+data-role="listview" data-role="list-divider" data-autodividers="true" data-filter="true"
+ui-li-icon data-rel="external" skype:// sms://; tel:// ; data-split-theme ul-li-aside ui-li-count
+-webkit-appearance ajaxSetup  ajaxTransport -webkit-tap-highlight-color
+bind-attr  Ember.Handlebars.helper Ember.TextField.extend todo.deleteRecord()  Ember.isEmpty
+focus-out  acceptChanges this.send('removeTodo') #link-to completed.invoke('save')  this.setEach todos.objectAt
+text/x-handlebars #unless #with bind-attr 
+MOUSE node-inspector ArrayAdapter ExpandableListActivity PreferenceActivity
+RingtonePreference  EditTextPreference ListPreference CheckBoxPreference PreferenceCategory
+android:hint android:selectAllOnFocus android:phoneNumber TableLayout TableRow RadioGroup
+RadioButton  CheckBox android:orientation onChronometerTick setBase
+url.parse(string, true  )
+app.engine('.html', ejs.__express); setAlpha
+app.set('view engine', 'html'); enctype="multipart/form-data" name="key"
+ejs.open = '{{'; firstInCollection  npm info express version AlertDialog
+Chronometer SystemClock.elapsedRealtime AutoCompleteTextView ArrayAdapter BaseAdapter
+setImageResource LinearLayout addView java.util.Calendar cursorVisible Handler handleMessage
+addTab setIndicator getResources().getDrawable(R.drawable.icon) tabHost.newTabSpec
+Thread Message InterruptedException printStackTrace Thread.sleep android.os.Handler
+requestWindowFeature FEATURE_INDETERMINATE_PROGRESS TabActivity getTabHost LayoutInflater
+showDialog  setAdapter  PopupWindow dismiss
+SeekBar OnSeekBarChangeListener ScrollView  string-array HashMap setScaleType setLayoutParams
+AnimationUtils.loadAnimation(this,  android.R.anim.fade_in)  SimpleAdapter ArrayList
+getLayoutInflater  Activity.RESULT_OK managedQuery moveToFirst getColumnIndex getColumnIndex
+ContactsContract TypedArray this.getResources() setBackgroundDrawable BaseAdapter
+layer-list selector corners sweep padding
+Timer  timer.schedule ClipDrawable getDrawable image.startAnimation
+translate XmlResourceParser StringBuilder nextText XmlPullParserException
+onContextItemSelected onCreateContextMenu MenuIngetSharedPreferences Editor openFileInput FileInputStream openFileOutputflater
+onCreateOptionsMenu registerForContextMenu Toast checkableBehavior onOptionsItemSelected
+InputStream  BitmapDrawable Bitm apFactory decodeStream AttributeSet
+canvas.drawColor Path paint.setStyle(Paint.Style.FILL); setShader CornerPathEffect
+DiscretePathEffect DashPathEffect PathDashPathEffect ComposePathEffect SumPathEffect
+quadTo getBitmap setFocusable matrix setSkew setScale onKeyDown decodeResource
+sendEmptyMessage    MotionEvent.ACTION_DOWN myView.setLocation AnimationDrawable.class
+.getDeclaredField("mCurFrame"); TranslateAnimation TimerTask SimpleDateFormat
+getSharedPreferences Editor openFileInput FileInputStream openFileOutput PrintStream getExternalStorageDirectory
+getCanonicalPath new File("D:\\Text.txt"); Buffered eader readLine
+getParentFile root.listFiles() SQLiteDatabase openOrCreateDatabase rawQuery SimpleCursorAdapter
+converCursorToList   ArrayList<Map<String , String>> getContentResolver ContactsContract.Contacts.CONTENT_URI
+moveToNext getColumnIndex BaseExpandableListAdapter LayoutParams  AlertDialog.Builder ContentValues
+bitmap.compress  BitmapFactory.decodeFile  ContentProvider UriMatcher

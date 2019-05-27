@@ -1,0 +1,14 @@
+Type.methodName(thisArg[, arg1, arg2, ...]);
+instanceOf(item, object)
+myType.implement(name, method);
+myType.implement(methods);
+myType.extend(name, method);
+myType.extend(methods);
+Type.methodName(thisArg[, arg1, arg2, ...]);
+myElement.addEvent(type, fn);
+myElement.removeEvent(type, fn);
+myElement.addEvents(events);
+myElements.removeEvents([events]);
+myElement.fireEvent(type[, args[, delay]]);
+myElement.cloneEvents(from[, type]);
+Element.Events.yourProperty (object) 

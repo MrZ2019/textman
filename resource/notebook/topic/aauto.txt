@@ -1,0 +1,44 @@
+@@aauto
+fsys.lnk  fsys.getSpecial fsys.enum fsys.config fsys.table fsys.ini
+win.util.changeNotification;
+listview.insertColumn
+changeNotification.register  winex.desktop.listview.modifyStyle
+win.getScreen win.util.shellhook 
+winex.key.combine(hwnd,"CTRL","A")
+win.util.tray.pop key.hook key.press key.pressEx
+win.msgboxTimeout 
+mouse.drag key.getStateX key.wait key.capsLk
+
+@html
+wbLayout.getEle wbLayout.querySelector
+behavior:htmlarea;
+xcall("selectAll") foreground-image-transformation:colorize(graytext
+
+@win
+LOWORD HIWORD MAKELONG LOBYTE HIBYTE MAKEWORD
+MSG WNDCLASSEX POINT SIZE
+GetSystemMetrics SystemParametersInf DestroyWindow CreateWindowEx
+DefWindowProc CallWindowProc SetWindowLong GetWindowLong UpdateWindow 
+InvalidateRect RedrawWindow GetWindowRect GetClientRect ScreenToClient
+ClientToScreen MapWindowPoints PtInRect MoveWindow SetWindowPos BeginDeferWindowPos
+DeferWindowPos EndDeferWindowPos RegisterWindowMessage PostMessage PostThreadMessage
+SendMessage SendMessageInt SendMessageByString SendMessageByStr SendMessageByStruct
+SendMessageTimeout LoadImage CopyImage LoadBitmap LoadIcon LoadCursor GetCursor SetCursor
+DestroyIcon DestroyCursor GetClassInfoEx RegisterClassEx GetAsyncKeyState GetKeyState
+getWindow GetWindow getClassPointer getClassLong getStyle getStyleEx
+modifyStyle modifyStyleEx getAncestor setParent getParentOwner getParent
+getRoot getRootOwner getOwner getText
+setOwner  setText getDlgItemText  getTextById setTextById getId getClassName
+getLeaf getChild eachChild getFullscreen getFullscreen getThreadProcessId 
+SetEnvironmentVariableA getEnvironmentVariable getenv 
+getClass getDesktop setTop getActive setActive getFocus setFocus enable  close
+showWindow findEx find setTopmost SwitchToThisWindow setForeground getForeground 
+showForeground isVisible isIconic isZoomed isEnable isChild setCapture
+releaseCapture registerClassEx registerFormClass
+setPos center mapPoint mapRect toScreen toClient toScreenRect toClientRect getRect 
+getClientRect setRect getPos  getClientPos getScreen messageBox msgbox
+msgboxTest msgboxErr msgboxTimeout sendCopyData ptInBorder hitBorder loadForm
+dragQueryFile  dragFinish getDropFile RECT OffsetRect
+
+@html
+wbLayout.querySelector xcall win.ui.aniBackground

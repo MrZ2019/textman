@@ -1,0 +1,6 @@
+ORDOVA controlgroup data-type data-direction data-transition 
+data-rel="back"  data-corners data-mini data-shadow data-iconpos
+data-iconpos="notext" data-position="fixed" data-param-period image-slider
+mobileinit navigator.camera.PictureSourceType; 
+navigator.camera.DestinationType; pictureSource.PHOTOLIBRARY resolveLocalFileSystemURI
+Toast.makeText cordova.startActivityForResult

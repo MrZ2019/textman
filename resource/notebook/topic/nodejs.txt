@@ -1,0 +1,39 @@
+exit:Ev uncaughtException:Ev SIGINT:Ev process.stdout process.stderr process.stdin
+process.argv process.execPath
+process.execArgv process.abort() process.chdir(directory) process.cwd() 
+process.exit([code]) process.version console.log(process.versions);
+process.kill(pid, [signal]) process.pid process.title process.arch 
+process.platform process.memoryUsage() process.nextTick(callback)
+process.umask([mask]) process.uptime() process.hrtime()
+Class: ChildProcess  Event: 'error' Event: 'exit' Event: 'close' Event: 'disconnect'  
+Event: 'message' child.stdin child.stdout child.stderr child.pid#child.connected
+child.kill([signal]) child.send(message, [sendHandle]) child.send(message, [sendHandle])#
+child.disconnect() child_process.spawn(command, [args], [options])
+child_process.exec(command, [options], callback)
+child_process.execFile(file, [args], [options], [callback])
+child_process.fork(modulePath, [args], [options])
+util.format(format, [...])
+util.debug(string) util.print([...])
+util.error([...]) util.puts([...]) util.log(string)
+util.inspect(object, [options]) util.isArray(object) console.dir(obj)
+console.log('count: %d', count);
+util.isRegExp(object) util.isDate(object) util.isError(object)
+util.pump(readableStream, writableStream, [callback])
+util.inherits(constructor, superConstructor)
+console.info([data], [...])
+console.trace(message, [...]) console.assert(value, [message], [...])
+console.time(label) console.timeEnd(label)
+fs.rename(oldPath, newPath, callback)
+fs.renameSync(oldPath, newPath)
+fs.read(fd, buffer, offset, length, position, callback)
+fs.read(fd, buffer, offset, length, position, callback)
+fs.readFile(filename, [options], callback)
+fs.writeFileSync(filename, data, [options])
+fs.appendFile(filename, data, [options], callback)
+fs.watchFile(filename, [options], listener)
+fs.exists(path, callback)
+fs.unwatchFile(filename, [listener])
+stats.isFile() stats.isDirectory()
+fs.createReadStream(path, [options])
+Class: fs.ReadStream fs.createWriteStream(path, [options])
+Class: fs.FSWatcher

@@ -1,0 +1,3 @@
+chipest
+MOVE BYTE, WORD
+ADD, JMP, ORG, CMP, HLT， JC, JNC, jae

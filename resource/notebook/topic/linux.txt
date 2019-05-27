@@ -1,0 +1,3 @@
+@linux
+wget apt-get sudo rpm tar yum
+SetTextAlign 

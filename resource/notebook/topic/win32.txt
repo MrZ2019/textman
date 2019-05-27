@@ -1,0 +1,28 @@
+WINDEF.H WINNT.H WINBASE.H WINUSER.H WINGDI.H
+WINMM.LIB
+SB_THUMBTRACK SB_THUMBPOSITION WM_LBUTTUNUP WM_LBUTTONDOWN 
+WM_NCLBUTTONDOWN WM_GETSTATE
+WM_NCHITTEST BS_GROUPBOX SetWindowText ShowWindow SW_SHOWNORMAL SW_HIDE
+IsWindowsVisible EnableWindow IsWindowEnabled
+COLOR_BTNFACE
+
+ GetStockObject RegisterClass ShowWindow GetMessage TranslateMessage
+ DispatchMessage GetCursorPos SetCursorPos 
+ GetDC ReleaseDC ValidateRect GetWindowDC GetSystemMetrics
+ SetScrollRange SetScrollInfo GetStrollInfo
+Map Mode Transform metafile  region path clip palettes print
+CreateMetaFile GetDeviceCaps COLORREF RGB
+SelectObject SetMapMode SetWindowRrgEx SetViewportOrgEx
+SetWindowExtEx SetBkMode SetBkColor SetTextColor SetROP2
+SetStretchBltMode SetPolyFillMode SetTextCharacterExtra
+SetBrushOrgEx GetCurrentPositionEx
+Rectangle MoveToEx LineTo Polyline Ellipse RoundRect
+Arc Chord Pie PloyBezire
+CreatePen CreatePenIndirectv GetCurrentObject
+CreateSolidBrush CreateHatchBrush CreateBrushIndirect
+FillRect FrameRect InvertRect
+SetRect OffsetRect InflateRect CopyRect IntersectRect UnionRect
+isWindowUnicode malloc GetKeyNameText
+WM_DISPLAYCHANGE 
+GetTextMetrics
+SetCapture ReleaseCapture SetTimer KillTimer 

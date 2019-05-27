@@ -1,0 +1,211 @@
+Concatenating Two or More Strings
+Concatenating a String and Another Data Type
+Conditionally Comparing Strings
+Finding a Substring in a String
+Extracting a Substring from a String
+Checking for an Existing, Nonempty String
+Breaking a Keyword String into Separate Keywords
+Inserting Special Characters
+Processing Individual Lines of a textarea
+Trimming Whitespace from the Ends of a String
+Left- or Right-Pad a String
+Testing Whether a Substring Exists
+Testing for Case-Insensitive Substring Matches
+Validating a Social Security Number
+Finding and Highlighting All Instances of a Pattern
+Replacing Patterns with New Strings
+Swap Words in a String Using Capturing Parentheses
+Using Regular Expressions to Trim Whitespace
+Replace HTML Tags with Named Entities
+Searching for Special Characters
+Printing Out Today’s Date
+Printing Out the UTC Date and Time
+Printing Out an ISO 8601 Formatted Date
+Converting an ISO 8601 Formatted Date to a Format Acceptable to the Date Object
+Creating a Specific Date
+Scheduling a Future Date
+Tracking Elapsed Time
+Creating a Timeout
+Creating Recurring Timers
+Using Function Closures with Timers
+Keeping an Incremental Counter
+Converting a Decimal to a Hexadecimal Value
+Creating a Random Number Generator
+Randomly Generating Colors
+Converting Strings in a Table to Numbers
+Summing All Numbers in a Table Column
+Converting Between Degrees and Radians
+Find the Radius and Center of a Circle to Fit Within a Page Element
+Calculating the Length of a Circular Arc
+Looping Through an Array
+Creating a Multidimensional Array
+Creating a String from an Array
+Sorting an Array
+Store and Access Values in Order
+Store and Access Values in Reverse Order
+Create a New Array as a Subset of an Existing Array
+Searching Through an Array
+Flatten a Multidimensional Array
+Search and Remove or Replace Array Elements
+Applying a Function Against Each Array Element
+Applying a Function to Every Element in an Array and Returning a New Array
+Creating a Filtered Array
+Validating Array Contents
+Using an Associative Array to Store Form Element Names and Values
+Creating a Block of Reusable Code
+Passing Single Data Values to and from a Function
+Passing Complex Data Objects to a Function
+Creating a Dynamic Runtime Function
+Passing a Function As an Argument to Another Function
+Implementing a Recursive Algorithm
+Create a Function That Remembers Its State
+Improving Application Performance with a Generalized Currying Function
+Improve Application Performance with Memoization (Caching Calculations)
+Using an Anonymous Function to Wrap Global Variables
+Detecting When the Page Has Finished Loading
+Capturing the Location of a Mouse Click Event Using the Event Object
+Creating a Generic, Reusable Event Handler Function
+Canceling an Event Based on Changed Circumstance
+Preventing an Event from Propagating Through a Set of Nested Elements
+Capturing Keyboard Activity
+Using the New HTML5 Drag-and-Drop
+Using Safari Orientation Events and Other Mobile Development Environments
+Ask the Web Page Reader to Confirm an Action
+Creating a New, Stripped-Down Browser Window
+Finding Out About the Browser Accessing the Page
+Warning the Web Page Reader About Leaving a Page
+Changing Stylesheets Depending on Color Support
+Modifying Image Dimensions Depending on Page Size
+Creating Breadcrumbs in a CMS Template Page
+Bookmarking a Dynamic Page
+Preserving State for Back Button, Page Refresh
+Accessing Form Text Input Values
+Dynamically Disabling and Enabling Form Elements
+Getting Information from a Form Element Based on an Event
+Performing an Action When a Radio Button Is Clicked
+Checking for a Valid Phone Number
+Canceling a Form Submission
+Preventing Duplicate Form Submissions
+Hiding and Displaying Form Elements
+Modifying a Selection List Based on Other Form Decisions
+Gracefully Handling No JavaScript Support
+Checking for Errors in Functions
+Using an Alert for Simple Debugging
+Catching an Error and Providing Graceful Error Handling
+Initiating Manageable Errors
+Using Firebug with Firefox
+Setting a Breakpoint and Examining Data with Firebug
+Firefox and the Console
+Using IE’s Built-in Debugger
+Setting a Breakpoint with IE Developer Tools
+Opera’s Dragonfly
+Setting a Breakpoint with Dragonfly
+Turning on Safari’s Development Tools
+Setting a Breakpoint with Safari’s Debugger
+Debugging in Chrome
+Access a Given Element and Find Its Parent and Child Elements
+Accessing All Images in the Web Page
+Discover All Images Within an Article
+Discover all Images in Articles Using the Selectors API
+Finding the Parent Element for a Group of Elements
+Highlighting the First Paragraph in Every Element
+Apply a Striping Theme to an Unordered List
+Creating an Array of All Elements of a Given Class
+Finding All Elements That Share an Attribute
+Finding All Checked Options
+Summing All the Values in a Table Row
+Get Element Attributes
+Get Style Information for an Element
+Using innerHTML: A Quick and Easy Approach to Adding Content
+Inserting Elements Before Existing Page Elements
+Appending a New Element to the End of a Page
+Triggering Older Versions of IE to Style New Elements
+Inserting a New Paragraph
+Adding Text to a New Paragraph
+Adding Attributes to an Existing Element
+Testing for a Boolean Attribute
+Removing an Attribute
+Moving a Paragraph
+Replacing Links with Footnote Bullets
+Adding Rows to an Existing Table
+Removing a Paragraph from a div Element
+Deleting Rows from an HTML Table
+Changing the Element’s CSS Style Properties
+Determining the Area of the Web Page
+Measuring Elements
+Locating Elements in the Page
+Hiding Page Sections
+Creating Collapsible Form Sections
+Adding a Page Overlay
+Creating Tab Pages
+Creating Hover-Based Pop-up Info Windows
+Collapsing or Resizing the Sidebar
+Displaying a Hidden Page Section
+Creating an Alert Message
+Highlighting Form Field with Missing or Incorrect Data
+Adding Keyboard Accessibility to a Page Overlay
+Creating Collapsible Form Sections
+Displaying a Flash of Color to Signal an Action
+Adding ARIA Attributes to a Tabbed Page Application
+Live Region
+Creating Basic Shapes in Canvas (Using the canvas Element)
+Implementing Canvas Applications in IE
+Creating a Dynamic Line Chart in Canvas
+Adding JavaScript to an SVG File
+Accessing SVG from Web Page Script
+Emulating SVG in Internet Explorer
+Enable Interactive SVG Embedded in HTML
+Using the Math Functions to Create a Realistic, Ticking Analog Clock in SVG
+Integrating SVG and the Canvas Element in HTML
+Turning on WebGL Support in Firefox and WebKit/Safari
+Running a Routine When an Audio File Begins Playing
+Controlling Video from JavaScript with the video Element
+Defining a Basic JavaScript Object
+Keeping Object Members Private
+Expanding Objects with prototype
+Adding Getter/Setter to Objects
+Inheriting an Object’s Functionality
+Extending an Object by Defining a New Property
+Enumerating an Object’s Properties
+Preventing Object Extensibility
+Preventing Object Additions and Changes to Property Descriptors
+Preventing Any Changes to an Object
+One-Off Objects and Namespacing Your JavaScript
+Rediscovering “this” with Prototype
+Chaining Your Object’s Methods
+Packaging Your Code
+Testing Your Code with JsUnit
+Minify Your Library
+Hosting Your Library
+Using an External Library: Building on the jQuery Framework
+Using Existing jQuery Plug-ins
+Convert Your Library to a jQuery Plug-in
+Safely Combining Several Libraries in Your Applications
+Accessing the XMLHttpRequest Object
+Preparing the Data for Transmission
+Determining the Type of Query Call
+Adding a Callback Function to an Ajax Request
+Checking for an Error Condition
+Processing a Text Result
+Making an Ajax Request to Another Domain (Using JSONP)
+Populating a Selection List from the Server
+Using a Timer to Automatically Update the Page with Fresh Data
+Communicating Across Windows with PostMessage
+Process an XML Document Returned from an Ajax Call
+Extracting Pertinent Information from an XML Tree
+Generate a JavaScript Object with JSON, Old-School Style
+Parse a JSON Formatted String
+Convert an Object to a Filtered/Transformed String with JSON
+Convert hCalendar Microformat Annotations into a Canvas Timeline
+Glean Page RDFa and Convert It into JSON Using rdfQuery and the jQuery RDF Plug-in
+Attaching Persistent Information to URLs
+Creating a Cookie to Persist Information Across Pages
+Persisting Information Using the History
+Using sessionStorage for Client-Side Storage
+Creating a localStorage Client-Side Data Storage Item
+Persisting Data Using a Relational Data Store
+Creating a Browser Add-0n, Plug-in, or Extension
+Creating Desktop and Mobile Widgets
+Creating JavaScript Applications for the iPhone, Android, and BlackBerry with PhoneGap
+Enhancing Tools with JavaScript
+Creating Efficient Desktop Applications with Web Workers and the File API

@@ -1,0 +1,43 @@
+Loading modules
+Creating modules
+Using the node_modules folder
+Understanding why you need buffers in Node
+Creating a buffer from a string
+Converting a buffer to a string
+Manipulating the bytes in a buffer
+Slicing and copying a buffer
+Introducing the event emitter pattern
+Binding and unbinding event listeners
+Creating your own event emitter
+Deferring the execution of a function
+Canceling a scheduled execution
+Scheduling a periodic execution of a function
+Deferring the execution of a function until the next event loop tick
+Manipulating file paths
+Extracting information from a file path
+Understanding file descriptors
+Using fs.stat() to capture file statistics
+Opening, reading, writing, and closing files
+Avoiding leaking file descriptors
+Launching commands and child processes
+Sending and receiving data from a child process
+Sending signals to and then terminating a child process
+Introducing the streams interface
+Getting data from a readable stream
+Controlling the flow of a readable stream
+Writing to a writable stream
+Solving the slow client problem
+Using pipe to stitch streams together
+Creating a TCP server
+Closing server-side TCP connections
+Handling network errors
+Piping data to or from a TCP connection
+Building a TCP chat server
+Creating an HTTP server
+Making an HTTP server listen on a port
+Handling HTTP requests
+Observing request headers
+Listening for and piping request data
+Replying with a status code and headers
+Replying with a body
+Using HTTP chunked responses to stream the response body

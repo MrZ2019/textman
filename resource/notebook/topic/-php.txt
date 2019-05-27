@@ -1,0 +1,360 @@
+Accessing Substrings
+Extracting Substrings
+Replacing Substrings
+Processing a String One Byte at a Time
+Reversing a String by Word or Byte
+Expanding and Compressing Tabs
+Controlling Case
+Interpolating Functions and Expressions Within Strings
+Trimming Blanks from a String
+Generating Comma-Separated Data
+Parsing Comma-Separated Data
+Generating Fixed-Width Field Data Records
+Parsing Fixed-Width Field Data Records
+Taking Strings Apart
+Wrapping Text at a Certain Line Length
+Storing Binary Data in Strings
+Program: Downloadable CSV File
+Checking Whether a Variable Contains a Valid Number
+Comparing Floating-Point Numbers
+Rounding Floating-Point Numbers
+Operating on a Series of Integers
+Generating Random Numbers Within a Range
+Generating Biased Random Numbers
+Taking Logarithms
+Calculating Exponents
+Formatting Numbers
+Formatting Monetary Values
+Printing Correct Plurals
+Calculating Trigonometric Functions
+Doing Trigonometry in Degrees, Not Radians
+Handling Very Large or Very Small Numbers
+Converting Between Bases
+Calculating Using Numbers in Bases Other Than Decimal
+Finding the Distance Between Two Places
+Finding the Current Date and Time
+Converting Time and Date Parts to an Epoch Timestamp
+Converting an Epoch Timestamp to Time and Date Parts
+Printing a Date or Time in a Specified Format
+Finding the Difference of Two Dates
+Finding the Difference of Two Dates with Julian Days
+Finding the Day in a Week, Month, or Year
+Validating a Date
+Parsing Dates and Times from Strings
+Adding to or Subtracting from a Date
+Calculating Time with Time Zones
+Accounting for Daylight Savings Time
+Generating a High-Precision Time
+Generating Time Ranges
+Using Non-Gregorian Calendars
+Using Dates Outside the Range of an Epoch Timestamp
+Program: Calendar
+Specifying an Array Not Beginning at Element 0
+Storing Multiple Elements Per Key in an Array
+Initializing an Array to a Range of Integers
+Iterating Through an Array
+Deleting Elements from an Array
+Changing Array Size
+Appending One Array to Another
+Turning an Array into a String
+Printing an Array with Commas
+Checking if a Key Is in an Array
+Checking if an Element Is in an Array
+Finding the Position of a Value in an Array
+Finding Elements That Pass a Certain Test
+Finding the Largest or Smallest Valued Element in an Array
+Reversing an Array
+Sorting an Array
+Sorting an Array by a Computable Field
+Sorting Multiple Arrays
+Sorting an Array Using a Method Instead of a Function
+Randomizing an Array
+Removing Duplicate Elements from an Array
+Applying a Function to Each Element in an Array
+Finding the Union, Intersection, or Difference of Two Arrays
+Making an Object Act like an Array
+Program: Printing a Horizontally Columned HTML Table
+Avoiding == Versus = Confusion
+Establishing a Default Value
+Exchanging Values Without Using Temporary Variables
+Creating a Dynamic Variable Name
+Using Static Variables
+Sharing Variables Between Processes
+Encapsulating Complex Data Types in a String
+Dumping Variable Contents as Strings
+Accessing Function Parameters
+Setting Default Values for Function Parameters
+Passing Values by Reference
+Using Named Parameters
+Creating Functions That Take a Variable Number of Arguments
+Returning Values by Reference
+Returning More Than One Value
+Skipping Selected Return Values
+Returning Failure
+Calling Variable Functions
+Accessing a Global Variable Inside a Function
+Creating Dynamic Functions
+Instantiating Objects
+Defining Object Constructors
+Defining Object Destructors
+Implementing Access Control
+Preventing Changes to Classes and Methods
+Defining Object Stringification
+Specifying Interfaces
+Creating Abstract Base Classes
+Assigning Object References
+Cloning Objects
+Overriding Property Accesses
+Calling Methods on an Object Returned by Another Method
+Aggregating Objects
+Accessing Overridden Methods
+Using Method Polymorphism
+Defining Class Constants
+Defining Static Properties and Methods
+Controlling Object Serialization
+Introspecting Objects
+Checking if an Object Is an Instance of a Specific Class
+Autoloading Class Files upon Object Instantiation
+Instantiating an Object Dynamically
+Program: whereis
+Setting Cookies
+Reading Cookie Values
+Deleting Cookies
+Redirecting to a Different Location
+Detecting Different Browsers
+Building a Query String
+Reading the Post Request Body
+Generating HTML Tables with Alternating Row Styles
+Using HTTP Basic or Digest Authentication
+Using Cookie Authentication
+Flushing Output to the Browser
+Buffering Output to the Browser
+Compressing Web Output
+Reading Environment Variables
+Setting Environment Variables
+Communicating Within Apache
+Program: Web Site Account (De)activator
+Program: Tiny Wiki
+Processing Form Input
+Validating Form Input: Required Fields
+Validating Form Input: Numbers
+Validating Form Input: Email Addresses
+Validating Form Input: Drop-Down Menus
+Validating Form Input: Radio Buttons
+Validating Form Input: Checkboxes
+Validating Form Input: Dates and Times
+Validating Form Input: Credit Cards
+Preventing Cross-Site Scripting
+Working with Multipage Forms
+Redisplaying Forms with Inline Error Messages
+Guarding Against Multiple Submission of the Same Form
+Processing Uploaded Files
+Preventing Global Variable Injection
+Handling Remote Variables with Periods in Their Names
+Using Form Elements with Multiple Options
+Creating Drop-Down Menus Based on the Current Date
+Using DBM Databases
+Using an SQLite Database
+Connecting to an SQL Database
+Querying an SQL Database
+Retrieving Rows Without a Loop
+Modifying Data in an SQL Database
+Repeating Queries Efficiently
+Finding the Number of Rows Returned by a Query
+Escaping Quotes
+Logging Debugging Information and Errors
+Creating Unique Identifiers
+Building Queries Programmatically
+Making Paginated Links for a Series of Records
+Caching Queries and Results
+Accessing a Database Connection Anywhere in Your Program
+Program: Storing a Threaded Message Board
+Using Session Tracking
+Preventing Session Hijacking
+Preventing Session Fixation
+Storing Sessions in a Database
+Storing Sessions in Shared Memory
+Storing Arbitrary Data in Shared Memory
+Caching Calculated Results in Summary Tables
+Generating XML as a String
+Generating XML with the DOM
+Parsing Basic XML Documents
+Parsing Complex XML Documents
+Parsing Large XML Documents
+Extracting Information Using XPath
+Transforming XML with XSLT
+Setting XSLT Parameters from PHP
+Calling PHP Functions from XSLT Stylesheets
+Validating XML Documents
+Handling Content Encoding
+Reading RSS and Atom Feeds
+Writing RSS Feeds
+Writing Atom Feeds
+Fetching a URL with the Get Method
+Fetching a URL with the Post Method
+Fetching a URL with Cookies
+Fetching a URL with Arbitrary Headers
+Fetching a URL with an Arbitrary Method
+Fetching a URL with a Timeout
+Fetching an HTTPS URL
+Debugging the Raw HTTP Exchange
+Marking Up a Web Page
+Cleaning Up Broken or Nonstandard HTML
+Extracting Links from an HTML File
+Converting Plain Text to HTML
+Converting HTML to Plain Text
+Removing HTML and PHP Tags
+Responding to an Ajax Request
+Integrating with JavaScript
+Program: Finding Stale Links
+Program: Finding Fresh Links
+Calling a REST Method
+Calling a SOAP Method with WSDL
+Calling a SOAP Method Without WSDL
+Debugging SOAP Requests
+Using Complex SOAP Types
+Setting SOAP Types
+Using SOAP Headers
+Using Authentication with SOAP
+Redefining an Endpoint
+Catching SOAP Faults
+Mapping XML Schema Data Types to PHP Classes
+Calling an XML-RPC Method
+Using Authentication with XML-RPC
+Serving a REST Method
+Serving a SOAP Method
+Accepting Arguments in a SOAP Method
+Generating WSDL Automatically
+Throwing SOAP Faults
+Processing a SOAP Header
+Generating a SOAP Header
+Using Authentication with SOAP
+Serving an XML-RPC Method
+Sending Mail
+Sending MIME Mail
+Reading Mail with IMAP or POP3
+Posting Messages to Usenet Newsgroups
+Reading Usenet News Messages
+Getting and Putting Files with FTP
+Looking Up Addresses with LDAP
+Using LDAP for User Authentication
+Performing DNS Lookups
+Checking if a Host Is Alive
+Getting Information About a Domain Name
+Drawing Lines, Rectangles, and Polygons
+Drawing Arcs, Ellipses, and Circles
+Drawing with Patterned Lines
+Drawing Text
+Drawing Centered Text
+Building Dynamic Images
+Getting and Setting a Transparent Color
+Reading EXIF Data
+Serving Images Securely
+Program: Generating Bar Charts from Poll Results
+Preventing Session Fixation
+Protecting Against Form Spoofing
+Ensuring Input Is Filtered
+Avoiding Cross-Site Scripting
+Eliminating SQL Injection
+Keeping Passwords Out of Your Site Files
+Storing Passwords
+Dealing with Lost Passwords
+Verifying Data with Hashes
+Encrypting and Decrypting Data
+Storing Encrypted Data in a File or Database
+Sharing Encrypted Data with Another Web Site
+Detecting SSL
+Encrypting Email with GPG
+Listing Available Locales
+Using a Particular Locale
+Setting the Default Locale
+Localizing Text Messages
+Localizing Dates and Times
+Localizing Currency Values
+Localizing Images
+Localizing Included Files
+Managing Localization Resources
+Using gettext
+Setting the Character Encoding of Outgoing Data
+Setting the Character Encoding of Incoming Data
+Manipulating UTF-8 Text
+Finding and Fixing Parse Errors
+Creating Your Own Exception Classes
+Printing a Stack Trace
+Reading Configuration Variables
+Setting Configuration Variables
+Hiding Error Messages from Users
+Tuning Error Handling
+Using a Custom Error Handler
+Logging Errors
+Eliminating “headers already sent” Errors
+Logging Debugging Information
+Using a Debugger Extension
+Writing a Unit Test
+Writing a Unit Test Suite
+Applying a Unit Test to a Web Page
+Setting Up a Test Environment
+Timing Function Execution
+Timing Program Execution
+Profiling with a Debugger Extension
+Stress Testing Your Web Site
+Avoiding Regular Expressions
+Using an Accelerator
+Switching from ereg to preg
+Matching Words
+Finding the nth Occurrence of a Match
+Choosing Greedy or Nongreedy Matches
+Finding All Lines in a File That Match a Pattern
+Capturing Text Inside HTML Tags
+Preventing Parentheses from Capturing Text
+Escaping Special Characters in a Regular Expression
+Reading Records with a Pattern Separator
+Using a PHP Function in a Regular Expression
+Creating or Opening a Local File
+Creating a Temporary File
+Opening a Remote File
+Reading from Standard Input
+Reading a File into a String
+Counting Lines, Paragraphs, or Records in a File
+Processing Every Word in a File
+Picking a Random Line from a File
+Randomizing All Lines in a File
+Processing Variable-Length Text Fields
+Reading Configuration Files
+Modifying a File in Place Without a Temporary File
+Flushing Output to a File
+Writing to Standard Output
+Writing to Many Filehandles Simultaneously
+Escaping Shell Metacharacters
+Passing Input to a Program
+Reading Standard Output from a Program
+Reading Standard Error from a Program
+Locking a File
+Reading and Writing Custom File Types
+Reading and Writing Compressed Files
+Getting and Setting File Timestamps
+Getting File Information
+Changing File Permissions or Ownership
+Splitting a Filename into Its Component Parts
+Deleting a File
+Copying or Moving a File
+Processing All Files in a Directory
+Getting a List of Filenames Matching a Pattern
+Processing All Files in a Directory Recursively
+Making New Directories
+Removing a Directory and Its Contents
+Program: Web Server Directory Listing
+Program: Site Search
+Parsing Program Arguments
+Parsing Program Arguments with getopt
+Reading from the Keyboard
+Running PHP Code on Every Line of an Input File
+Reading Passwords
+Program: Command Shell
+Using the PEAR Installer
+Finding PEAR Packages
+Finding Information About a Package
+Installing PEAR Packages
+Upgrading PEAR Packages
+Uninstalling PEAR Packages
+Installing PECL Packages

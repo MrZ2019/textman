@@ -1,0 +1,12 @@
+@html5
+<progress> <datalist>  <keygen> <canvas>
+input type: number date color range week url email <canvas>
+getContext("2d") fillStyle fillRect moveTo(x,y) lineTo(x,y) 
+ctx.stroke() arc(x,y,r,start,stop) ctx.font fillText(text,x,y) strokeText(text,x,y)
+createLinearGradient(x,y,x1,y1) createRadialGradient(x,y,r,x1,y1,r1) 
+drawImage(image,x,y) shadowColor shadowBlur
+createPattern() lineCap lineJoin lineWidth rect() clearRect() clip()
+quadraticCurveTo() bezierCurveTo() isPointInPath()
+scale() rotate() translate() transform() ctx.textAlign textBaseline measureText() ctx.data
+createImageData() getImageData() putImageData() globalAlpha globalCompositeOperation	
+ctx.save() restore() toDataURL()

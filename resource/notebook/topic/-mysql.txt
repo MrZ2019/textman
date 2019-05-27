@@ -1,0 +1,281 @@
+Setting Up a MySQL User Account
+Creating a Database and a Sample Table
+Starting and Stopping mysql
+Specifying Connection Parameters Using Option Files
+Protecting Option Files from Other Users
+Mixing Command-Line and Option File Parameters
+What to Do if mysql Cannot Be Found
+Issuing SQL Statements
+Canceling a Partially Entered Statement
+Repeating and Editing SQL Statements
+Using Auto-Completion for Database and Table Names
+Telling mysql to Read Statements from a File
+Telling mysql to Read Statements from Other Programs
+Entering an SQL One-Liner
+Using Copy and Paste as a mysql Input Source
+Preventing Query Output from Scrolling off the Screen
+Sending Query Output to a File or to a Program
+Selecting Tabular or Tab-Delimited Query Output Format
+Specifying Arbitrary Output Column Delimiters
+Producing HTML or XML Output
+Suppressing Column Headings in Query Output
+Making Long Output Lines More Readable
+Controlling mysql’s Verbosity Level
+Logging Interactive mysql Sessions
+Creating mysql Scripts from Previously Executed Statements
+Using User-Defined Variables in SQL Statements
+Numbering Query Output Lines
+Using mysql as a Calculator
+Using mysql in Shell Scripts
+Connecting, Selecting a Database, and Disconnecting
+Checking for Errors
+Writing Library Files
+Issuing Statements and Retrieving Results
+Handling Special Characters and NULL Values in Statements
+Handling Special Characters in Identifiers
+Identifying NULL Values in Result Sets
+Techniques for Obtaining Connection Parameters
+Conclusion and Words of Advice
+Specifying Which Columns to Select
+Specifying Which Rows to Select
+Giving Better Names to Query Result Columns
+Using Column Aliases to Make Programs Easier to Write
+Combining Columns to Construct Composite Values
+WHERE Clauses and Column Aliases
+Debugging Comparison Expressions
+Removing Duplicate Rows
+Working with NULL Values
+Writing Comparisons Involving NULL in Programs
+Sorting a Result Set
+Using Views to Simplify Table Access
+Selecting Data from More Than One Table
+Selecting Rows from the Beginning or End of a Result Set
+Selecting Rows from the Middle of a Result Set
+Choosing Appropriate LIMIT Values
+What to Do When LIMIT Requires the “Wrong” Sort Order
+Calculating LIMIT Values from Expressions
+Cloning a Table
+Saving a Query Result in a Table
+Creating Temporary Tables
+Checking or Changing a Table’s Storage Engine
+Generating Unique Table Names
+String Properties
+Choosing a String Data Type
+Setting the Client Connection Character Set Properly
+Writing String Literals
+Checking a String’s Character Set or Collation
+Changing a String’s Character Set or Collation
+Converting the Lettercase of a String
+Converting the Lettercase of a “Stubborn” String
+Controlling Case Sensitivity in String Comparisons
+Pattern Matching with SQL Patterns
+Pattern Matching with Regular Expressions
+Controlling Case Sensitivity in Pattern Matching
+Breaking Apart or Combining Strings
+Searching for Substrings
+Using FULLTEXT Searches
+Using a FULLTEXT Search with Short Words
+Requiring or Excluding FULLTEXT Search Words
+Performing Phrase Searches with a FULLTEXT Index
+Choosing a Temporal Data Type
+Changing MySQL’s Date Format
+Setting the Client Time Zone
+Determining the Current Date or Time
+Using TIMESTAMP to Track Row Modification Times
+Extracting Parts of Dates or Times
+Synthesizing Dates or Times from Component Values
+Converting Between Temporal Data Types and Basic Units
+Calculating the Interval Between Two Dates or Times
+Adding Date or Time Values
+Calculating Ages
+Shifting a Date-and-Time Value to a Different Time Zone
+Finding the First Day, Last Day, or Length of a Month
+Calculating Dates by Substring Replacement
+Finding the Day of the Week for a Date
+Finding Dates for Any Weekday of a Given Week
+Performing Leap Year Calculations
+Canonizing Not-Quite-ISO Date Strings
+Treating Dates or Times as Numbers
+Forcing MySQL to Treat Strings as Temporal Values
+Selecting Rows Based on Their Temporal Characteristics
+Using ORDER BY to Sort Query Results
+Using Expressions for Sorting
+Displaying One Set of Values While Sorting by Another
+Controlling Case Sensitivity of String Sorts
+Date-Based Sorting
+Sorting by Calendar Day
+Sorting by Day of Week
+Sorting by Time of Day
+Sorting Using Substrings of Column Values
+Sorting by Fixed-Length Substrings
+Sorting by Variable-Length Substrings
+Sorting Hostnames in Domain Order
+Sorting Dotted-Quad IP Values in Numeric Order
+Floating Values to the Head or Tail of the Sort Order
+Sorting in User-Defined Orders
+Sorting ENUM Values
+Summarizing with COUNT⁠(⁠ ⁠ ⁠)
+Summarizing with MIN⁠(⁠ ⁠ ⁠) and MAX⁠(⁠ ⁠ ⁠)
+Summarizing with SUM⁠(⁠ ⁠ ⁠) and AVG⁠(⁠ ⁠ ⁠)
+Using DISTINCT to Eliminate Duplicates
+Finding Values Associated with Minimum and Maximum Values
+Controlling String Case Sensitivity for MIN⁠(⁠ ⁠ ⁠) and MAX⁠(⁠ ⁠ ⁠)
+Dividing a Summary into Subgroups
+Summaries and NULL Values
+Selecting Only Groups with Certain Characteristics
+Using Counts to Determine Whether Values Are Unique
+Grouping by Expression Results
+Categorizing Noncategorical Data
+Controlling Summary Display Order
+Finding Smallest or Largest Summary Values
+Date-Based Summaries
+Working with Per-Group and Overall Summary Values Simultaneously
+Generating a Report That Includes a Summary and a List
+Obtaining the Number of Rows Affected by a Statement
+Obtaining Result Set Metadata
+Determining Whether a Statement Produced a Result Set
+Using Metadata to Format Query Output
+Listing or Checking Existence of Databases or Tables
+Accessing Table Column Definitions
+Getting ENUM and SET Column Information
+Using Table Structure Information in Applications
+Getting Server Metadata
+Writing Applications That Adapt to the MySQL Server Version
+Determining the Default Database
+Monitoring the MySQL Server
+Determining Which Storage Engines the Server Supports
+Importing Data with LOAD DATA and mysqlimport
+Specifying the Datafile Location
+Specifying the Structure of the Datafile
+Dealing with Quotes and Special Characters
+Importing CSV Files
+Reading Files from Different Operating Systems
+Handling Duplicate Key Values
+Obtaining Diagnostics About Bad Input Data
+Skipping Datafile Lines
+Specifying Input Column Order
+Preprocessing Input Values Before Inserting Them
+Ignoring Datafile Columns
+Exporting Query Results from MySQL
+Exporting Tables as Text Files
+Exporting Table Contents or Definitions in SQL Format
+Copying Tables or Databases to Another Server
+Writing Your Own Export Programs
+Converting Datafiles from One Format to Another
+Extracting and Rearranging Datafile Columns
+Using the SQL Mode to Control Bad Input Data Handling
+Validating and Transforming Data
+Using Pattern Matching to Validate Data
+Using Patterns to Match Broad Content Types
+Using Patterns to Match Numeric Values
+Using Patterns to Match Dates or Times
+Using Patterns to Match Email Addresses or URLs
+Using Table Metadata to Validate Data
+Using a Lookup Table to Validate Data
+Converting Two-Digit Year Values to Four-Digit Form
+Performing Validity Checking on Date or Time Subparts
+Writing Date-Processing Utilities
+Using Dates with Missing Components
+Importing Non-ISO Date Values
+Exporting Dates Using Non-ISO Formats
+Importing and Exporting NULL Values
+Guessing Table Structure from a Datafile
+Exchanging Data Between MySQL and Microsoft Access
+Exchanging Data Between MySQL and Microsoft Excel
+Exporting Query Results as XML
+Importing XML into MySQL
+Epilogue
+Creating a Sequence Column and Generating Sequence Values
+Choosing the Data Type for a Sequence Column
+The Effect of Row Deletions on Sequence Generation
+Retrieving Sequence Values
+Renumbering an Existing Sequence
+Extending the Range of a Sequence Column
+Reusing Values at the Top of a Sequence
+Ensuring That Rows Are Renumbered in a Particular Order
+Starting a Sequence at a Particular Value
+Sequencing an Unsequenced Table
+Using an AUTO_INCREMENT Column to Create Multiple Sequences
+Managing Multiple Simultaneous AUTO_INCREMENT Values
+Using AUTO_INCREMENT Values to Relate Tables
+Using Sequence Generators as Counters
+Generating Repeating Sequences
+Numbering Query Output Rows Sequentially
+Finding Rows in One Table That Match Rows in Another
+Finding Rows with No Match in Another Table
+Comparing a Table to Itself
+Producing Master-Detail Lists and Summaries
+Enumerating a Many-to-Many Relationship
+Finding Rows Containing Per-Group Minimum or Maximum Values
+Computing Team Standings
+Using a Join to Fill or Identify Holes in a List
+Calculating Successive-Row Differences
+Finding Cumulative Sums and Running Averages
+Using a Join to Control Query Output Order
+Combining Several Result Sets in a Single Query
+Identifying and Removing Mismatched or Unattached Rows
+Performing a Join Between Tables in Different Databases
+Using Different MySQL Servers Simultaneously
+Referring to Join Output Column Names in Programs
+Calculating Descriptive Statistics
+Per-Group Descriptive Statistics
+Generating Frequency Distributions
+Counting Missing Values
+Calculating Linear Regressions or Correlation Coefficients
+Generating Random Numbers
+Randomizing a Set of Rows
+Selecting Random Items from a Set of Rows
+Assigning Ranks
+Preventing Duplicates from Occurring in a Table
+Dealing with Duplicates When Loading Rows into a Table
+Counting and Identifying Duplicates
+Eliminating Duplicates from a Table
+Eliminating Duplicates from a Self-Join Result
+Choosing a Transactional Storage Engine
+Performing Transactions Using SQL
+Performing Transactions from Within Programs
+Using Transactions in Perl Programs
+Using Transactions in Ruby Programs
+Using Transactions in PHP Programs
+Using Transactions in Python Programs
+Using Transactions in Java Programs
+Using Alternatives to Transactions
+Creating Compound-Statement Objects
+Using a Stored Function to Encapsulate a Calculation
+Using a Stored Procedure to “Return” Multiple Values
+Using a Trigger to Define Dynamic Default Column Values
+Simulating TIMESTAMP Properties for Other Date and Time Types
+Using a Trigger to Log Changes to a Table
+Using Events to Schedule Database Actions
+Basic Principles of Web Page Generation
+Using Apache to Run Web Scripts
+Using Tomcat to Run Web Scripts
+Encoding Special Characters in Web Output
+Displaying Query Results as Paragraph Text
+Displaying Query Results as Lists
+Displaying Query Results as Tables
+Displaying Query Results as Hyperlinks
+Creating a Navigation Index from Database Content
+Storing Images or Other Binary Data
+Retrieving Images or Other Binary Data
+Serving Banner Ads
+Serving Query Results for Download
+Using a Template System to Generate Web Pages
+Writing Scripts That Generate Web Forms
+Creating Single-Pick Form Elements from Database Content
+Creating Multiple-Pick Form Elements from Database Content
+Loading a Database Record into a Form
+Collecting Web Input
+Validating Web Input
+Storing Web Input in a Database
+Processing File Uploads
+Performing Searches and Presenting the Results
+Generating Previous-Page and Next-Page Links
+Generating “Click to Sort” Table Headings
+Web Page Access Counting
+Web Page Access Logging
+Using MySQL for Apache Logging
+Using MySQL-Based Sessions in Perl Applications
+Using MySQL-Based Storage in Ruby Applications
+Using MySQL-Based Storage with the PHP Session Manager
+Using MySQL for Session-Backing Store with Tomcat

@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "grammar",
+    "version": "1.0.0",
+    "description": "i love language!",
+
+    "icons": {
+        "16": "resource/icons/text_16.png",
+        "48": "resource/icons/text_48.png"
+    },
+
+    "app": {
+        "background": {
+            "scripts":
+                [
+                    "scripts/background/background.js"
+                ]
+        }
+    }
+}
