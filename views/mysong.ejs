@@ -1,0 +1,123 @@
+<html >
+<head>
+	<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="/stylesheets/style.css">
+
+	<script src="/library/jquery-2.1.0.js" type="text/javascript"></script>	
+	<script src="/library/bootstrap/js/bootstrap.js" type="text/javascript"></script>	
+
+   	<script src="/javascripts/mysong/meta.js"></script>
+    <script src="/config.js"></script>
+
+
+    <script src="/javascripts/mysong/common_function.js"></script>
+    <script src="/javascripts/mysong/app.class.js"></script>
+    <script src="/javascripts/mysong/app.extend.js"></script>
+    
+
+    <script src="/javascripts/mysong/initialData.js"></script>
+    <script src="/javascripts/mysong/appTest.js" type="text/javascript"></script>
+    <script src="/javascripts/mysong/app.utility.js" type="text/javascript"></script>
+    <script src="/javascripts/mysong/app.listener.js" type="text/javascript"></script>
+    <script src="/javascripts/mysong/app.dom.js" type="text/javascript"></script>
+    <script src="/javascripts/mysong/app.render.js" type="text/javascript"></script>
+    
+    <script src="/javascripts/mysong/application.js" type="text/javascript"></script>	
+</head>
+
+<body>
+	<div class="container">
+	<div class="toolbar">
+		<button id="btn-open-dlg" class="btn btn-primary" data-toggle="modal" data-target="#dlg-add-item">添加项</button>
+	</div>
+		<table class="table table-songs">
+			<tr class="bg-green">
+				<th>id</th>
+				<th>歌曲标题</th>
+				<th>相关人物</th>
+				<th>相关歌曲</th>
+				<th>相关场景</th>
+				<th>创建时间</th>
+				<th>关键字</th>
+				<th>操作</th>
+			</tr>
+
+			<% data.forEach(function(song) { %>
+
+			<tr id="<%= song.id %>" data-json="<%= JSON.stringify(song) %>">
+				<td><%= song.id %></td>
+				<td><%= song.song_title %></td>
+				<td><%= song.persons %></td>
+				<td><%= song.other_songs %></td>
+				<td><%= song.places %></td>
+				<td><%= new Date(song.create_time).toDateString() %></td>
+				<td><%= song.keywords %></td>
+				<td songId=<%= song.id %>>
+					<button class="btn-delete btn btn-danger">删除</button>
+					<button class="btn-edit btn btn-success" data-toggle="modal" data-target="#dlg-add-item">编辑</button>
+				</td>
+			</tr>
+
+			<% }) %>
+		</table>
+
+		<!-- 对话框资源 -->
+
+		<div class="modal fade" id="dlg-add-item">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+							<span>&times</span>
+						</button>
+						<h4 class="modal-title normal">添加条目</h4>
+						<h4 class="modal-title class1">修改条目</h4>
+					</div>
+
+					<div class="modal-body">
+						<form action="" class="form-horizontal" name="add_item">
+							<div class="form-group">
+								<label for="" class="control-label col-sm-3">歌曲标题</label>
+								<div class="col-sm-9">
+									<input type="text" name="song_title" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="" class="control-label col-sm-3">相关人物</label>
+								<div class="col-sm-9">
+									<input type="text" name="persons" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="" class="control-label col-sm-3">相关歌曲</label>
+								<div class="col-sm-9">
+									<input type="text" name="other_songs" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="" class="control-label col-sm-3">相关场景</label>
+								<div class="col-sm-9">
+									<input type="text" name="places" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="" class="control-label col-sm-3">关键字</label>
+								<div class="col-sm-9">
+									<input type="text" name="keywords" class="form-control">
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<div class="modal-footer">
+						<button id="btn-add-item" class="btn btn-success">提交</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+    
+

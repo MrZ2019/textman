@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Gallery</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="../stylesheets/gallery-detail.css" />
+	<script src='/library/jquery-2.1.0.js'></script>
+	<script src='/javascripts/gallery/gallery-detail.js'></script>
+</head>
+
+<body>
+	<div class="content">
+		<div class='playlist'>
+			<ul>
+				<% data.forEach(function(song) {%>	
+					<li filelist="<%= song.filelist.join(',') %>"><%= song.name %></li>
+				<% })%>			
+			</ul>
+		</div>
+		<audio src="../resources/gallery/飞行部落.mp3" id="player" controls autoplay></audio>
+
+		<div class="gallery">
+			<% data.imgs.forEach(function(img) { %>
+				<img src="<%= img %>" alt="">
+			<% })%>
+		</div>
+	</div>
+</body>
+</html>

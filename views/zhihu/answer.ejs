@@ -1,0 +1,57 @@
+
+<title>答案: <%= question.title %></title>
+<link rel='stylesheet' href='/stylesheets/zhihu/style.css' />
+<script src='/library/jquery-2.1.0.js'></script>
+<script src='/javascripts/zhihu/scroll.js'></script>
+<script src='/javascripts/zhihu/app.js'></script>
+
+<folder folder='<%= folder %>'></folder>
+<h1>
+	答案: <span class='question'><%= question.title %></span>
+</h1>
+
+<ul class='list2 comment-list'>
+	<% _.each(rows, function(item) { %>
+
+		<li class="<%= item.user_id ? 'answer': ''%>">
+			<div class="top">
+				<img class='user-img' src="/resources/zhihu/user/<%= item.user.img %>.jpg">
+				<span class="username"><%= item.user.username %></span>
+
+				<% if(item.user.bio) {%>
+				<!-- <span class="bio">(<%= item.user.bio %>)</span> -->
+				<% } %>
+				
+				<% if(item.toUser) {%>
+				<span class="to-user">
+					回复 
+					<span class="username"><%= item.toUser.username %></span>
+				</span>
+				<% } %>	
+
+				<span class="date"><%= item.create_time ? util.formatDate(item.create_time) : '' %></span>
+			</div>
+			<div class="content">
+				<%- item.content %>
+			</div>	
+			<span class='show-all'>显示全部</span>
+		</li>
+	
+	<% }) %>
+
+</ul>
+
+<button class='btn-collapse'>
+	<i></i>
+	收起
+</button>
+
+<div class="zh-backtotop">
+	<a data-action="backtotop" data-tooltip="s$r$回到顶部" href="javascript:;" class="btn-backtotop btn-action">
+		<div class="arrow">
+		</div>
+		<div class="stick">
+			
+		</div>
+	</a>
+</div>

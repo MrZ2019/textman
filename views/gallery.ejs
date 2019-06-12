@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Gallery</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet"  href="/stylesheets/gallery.css">
+
+	<script src='/library/jquery-2.1.0.js'></script>
+	<script src='/javascripts/gallery/gallery.js'></script>
+</head>
+
+<body>
+	<div class="content">
+		<div class="wrap-box">
+			<% list.forEach(function(entry) { %>
+			<div class="item">
+				<div class="img-wrap">
+					<a href="/gallery/<%= entry %>" target="_blank">
+						<img src="/<%= dir + entry + '/cover.jpg' %>" alt="">
+					</a>
+				</div>
+				<div class='title'><%= entry %></div>
+			</div>
+			<% })%>
+		</div>
+	</div>
+</body>
+</html>

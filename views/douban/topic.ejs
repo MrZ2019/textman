@@ -1,0 +1,35 @@
+<title>话题：<%= topic.name %></title>
+<link rel='stylesheet' href='/stylesheets/zhihu/style.css' />
+
+<script src='/library/jquery-2.1.0.js'></script>
+<script src='/javascripts/zhihu/scroll.js'></script>
+<script src='/javascripts/zhihu/app.js'></script>
+
+<h1>
+	<span class="text">
+	话题: <span class='topic'><%= topic.name %></span>
+	</span>
+</h1>
+<div class="topic-desc">
+	<%- topic.desc %>
+</div>
+<ul class='question-list'>
+	<% _.each(rows, function(item) { %>
+
+		<li>
+			<a class='name' href='/douban/note/<%= item.note_id %>'><%= item.title %></a>
+		</li>
+	
+	<% }) %>
+
+</ul>
+
+<div class="zh-backtotop">
+	<a data-action="backtotop" data-tooltip="s$r$回到顶部" href="javascript:;" class="btn-backtotop btn-action">
+		<div class="arrow">
+		</div>
+		<div class="stick">
+			
+		</div>
+	</a>
+</div>

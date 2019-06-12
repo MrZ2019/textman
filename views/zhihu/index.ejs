@@ -1,0 +1,20 @@
+
+<title>话题导航</title>
+<link rel='stylesheet' href='/stylesheets/zhihu/style.css' />
+
+<h1>话题导航</h1>
+
+<ul class='topic-list'>
+	<% _.each(rows, function(item) { %>
+
+		<li><a href='/zhihu/topic/<%= item.topic_id %>'>
+			<img src="/resources/zhihu/topic/<%= item.img %>.jpg" class='topic'/>
+			<span class='name'><%= item.name %></span>
+				
+			</a>
+		</li>
+	
+	<% }) %>
+
+</ul>
+

@@ -1,0 +1,269 @@
+<html  plugin=''>
+<head>
+    <meta charset="utf-8"/>  
+    <meta name="viewport" content="width=device-width,init-scale=1.0">
+  <link rel="stylesheet" href="/library/bootstrap-paginator/css/bootstrapv3.css">
+  
+  <link rel="stylesheet" href="/library/datepicker/css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="/stylesheets/mynote.css">
+	<link rel="stylesheet" href="/stylesheets/style.css">
+
+  <script src="/library/underscore.js" type="text/javascript"></script> 
+  <script src="/library/jquery-2.1.0.js" type="text/javascript"></script> 
+	<script src="/library/jquery.isloading.js" type="text/javascript"></script>	
+    <script src="/library/bootstrap/js/bootstrap.js" type="text/javascript"></script>   
+    <script src="/library/bootstrap-paginator/src/bootstrap-paginator.js" type="text/javascript"></script>   
+    <script src="/library/datepicker/js/bootstrap-datetimepicker.js" type="text/javascript"></script>   
+
+	<script src="/library/ejs.js" type="text/javascript"></script>	
+
+   	<script src="/javascripts/mynote/meta.js"></script>
+    <script src="/javascripts/mynote/app.config.js"></script>
+
+
+    <script src="/javascripts/mynote/common_function.js"></script>
+    <script src="/javascripts/mynotemynote/app.class.js"></script>
+    <script src="/javascripts/mynote/app.extend.js"></script>
+    
+
+    <script src="/javascripts/mynote/initialData.js"></script>
+    <script src="/javascripts/mynote/appTest.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/app.utility.js" type="text/javascript"></script>
+    
+
+    <script src="/javascripts/mynote/js/app.flow.settings.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/js/app.flow.slideshow.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/js/app.flow.paginator.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/js/app.flow.table.js" type="text/javascript"></script>
+
+    <script src="/javascripts/mynote/app.listener.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/app.dom.js" type="text/javascript"></script>
+    <script src="/javascripts/mynote/app.render.js" type="text/javascript"></script>
+    
+    <script src="/javascripts/mynote/application.js" type="text/javascript"></script>	
+</head>
+
+<body>
+
+    <div id="hidden" style='display: none'>
+
+        <li class='tab-li'>
+          <a href="#"><span class="text"></span></a>
+          <ul></ul>
+        </li>
+        <li class='sub-li'>
+          <a href="" role="tab" data-toggle="tab">说说</a>
+        </li>
+
+          <div class="tab-pane pane1 tab2" role="tabpanel">
+              <ul class="nav nav-tabs" role="tablist">
+                  <li class='' role="presentation"><a href="" role="tab" data-toggle="tab">编辑</a></li>
+                  <li role="presentation"><a href="" role="tab" data-toggle="tab">查看</a></li>
+                  <label class="txt1">筛选</label>
+                  <select class="form-control filter">
+                    
+                  </select>
+              </ul>
+              <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active pane2">
+                      <select name=""  class='form-control sel-type'>                        
+                      </select>
+
+                      <input type="text"  class="form-control item" placeholder='item'>
+                     <input type="text"  class="form-control tag" placeholder='Tag'>    
+                     <input type="text"  class="form-control datetime" placeholder=''>                        
+                    
+                       <textarea name="" cols="30" rows="10" class="form-control content" placeholder='Content'></textarea>
+                      <br>
+                      <button class="btn btn-success btn-submit">提交</button>                
+                  </div>
+                  <div role="tabpanel" class="tab-pane">
+                      <br>
+                      <form class="form-inline">
+                        <button type='button' class="btn btn-success btn-refresh">刷新</button>
+                        <label for=""> 查询
+                          <input sqltype="" class="form-control sql"></label>                          
+                      </form>
+                      <div class="table-wrap">
+                          <table class="table table-hover row6">
+
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>        
+        <div class="page-addon">
+          <label for="" class='pagenum'>
+            <span class="text">跳转</span>
+            <input type='text' class='inp-pagenum form-control'/>
+          </label>
+          <label for="" class='total'>
+            <span class="text">共
+              <i class='i1'></i>
+              (<i class='i2'></i>条)
+            </span>
+          </label>
+          <label for="" class='pagesize'>
+            <span class="text">每页显示</span>
+            <input type='text' class='inp-pagesize form-control'/>
+          </label>         
+        </div>
+    </div>
+    <script id="ejs-table" type="text/ejs">
+
+    </script>
+
+	<div class="container">
+   
+   <div class="slideshow">
+      <div id="exit-show">返回</div>
+      <div class="slide-status"></div>
+      <div class="content">
+
+      </div>
+    </div>
+
+
+    <div id="alert-error" class="alert alert-danger"></div>
+    <div id="alert-success" class="alert alert-success"></div>
+        
+    <a href="#" id="a-setting" data-toggle="modal" data-target="#dlg-setting"><span  class="glyphicon glyphicon-cog"></span>  <span class="str">
+      设置
+      </span></a>
+    <a href="#" id="a-slideshow" ><span  class="glyphicon glyphicon-eye-open"></span> <span class="str">预览</span></a>
+        
+    <div class="modal fade" id='dlg-setting'>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body ">
+            <ul class="nav nav-tabs" role='tablist'>
+              <li role="presentation" class='active'><a href="#setting-general" data-toggle='tab' role='tab'>通用</a></li>
+              <li role="presentation"><a href="#setting-show" data-toggle='tab' role='tab'>放映</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" role="tabpanel" id='setting-general'>
+                <form class="form-horizontal">
+                  <div class="form-row">
+                    <label class="control-label"><input type="checkbox" id="radio-showtime"> <span>显示时间</span></label>
+                  </div>
+                  <div class="form-row">
+                     <label class="control-label"><input type="radio" name='radio-order' value='asc'> <span>升序</span></label>
+                     <label class="control-label"><input type="radio" name='radio-order' value='desc' checked> <span>倒序</span></label>
+                    <label class="control-label"><input type="radio" name='radio-order' value='shuffle'> <span>乱序</span></label>
+                  </div>
+                  <div class="form-row r3">
+                    <div class="title2">初始化设置:</div>
+                    <label class="control-label"><input type="text" id="inp-pagesize" class='form-control'> <span>每页显示</span></label>
+                    <label class="control-label">
+                      <select id='sel-type' class='form-control'>
+                      
+                      </select> 
+                    <span>初始类型</span>
+                    </label>
+                    <label class="control-label">
+                      <select id='sel-page' class='form-control'>
+                        <option value="edit">编辑</option>
+                        <option value="view">查看</option>
+                        
+                      </select>    
+                    <span>初始界面</span>
+                    </label>
+                  </div>
+                   <div class="form-row">
+                      <button type='button' class="btn btn-primary" id='btn-sync-void'>同步 void</button>
+                  </div>
+                </form>                      
+              </div> 
+              <div class="tab-pane" role="tabpanel" id='setting-show'>
+                  <div class="form-row">
+                    <label class="control-label">
+                      <select id='sel-preview' class='form-control'>
+                        <option value="mode1">模式 1</option>
+                        <option value="mode2">模式 2</option>
+                      </select> 
+                    <span>预览模式</span>
+                    </label>
+                  </div>                    
+                  <div class="form-row">
+                    <label class="control-label"><input type="range" id="range-slide" step='500' min='2000' max='6000'> <span>播放间隔</span><span class="time"><span class="value"></span>ms</span></label>
+                  </div>                    
+              </div>                   
+            </div>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal settings -->
+
+     
+    <div class="modal fade" class='dlg-edit' id='dlg-edit'>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <input type="hidden" id="rowid">
+              <div class="form-group">
+                <label for="inputType" class="col-sm-2 control-label">类型</label>
+                <div class="col-sm-10">
+                    <select name="" id="inputType" class='form-control'>
+                    </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputItem" class="col-sm-2 control-label">项</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputItem" placeholder="Item">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputTag" class="col-sm-2 control-label">标签</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputTag" placeholder="Tag">
+                </div>
+              </div>       
+              <div class="form-group">
+                <label for="inputDate" class="col-sm-2 control-label">日期</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputDate" placeholder="">  
+                </div>
+              </div>       
+              
+
+
+              <div class="form-group">
+                <label for="inputContent" class="col-sm-2 control-label">内容</label>
+                <div class="col-sm-10">
+                  <textarea type="text" rows='6' class="form-control" id="inputContent" placeholder="Content"></textarea>
+                </div>
+              </div>
+            </form>                
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" id='btn-save-edit'>保存</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal add/edit-->        
+
+    <div id='main-tab' class='tab1'>
+      <ul class="nav nav-tabs" role="tablist" id='table-tab'>
+          <li class='' role="presentation">
+           
+            <ul>
+            </ul>
+          </li>   
+      </ul>
+      <div class="tab-content">
+
+
+      </div>
+    </div>
+	</div>
+</body>
+
+</html>
+    
+

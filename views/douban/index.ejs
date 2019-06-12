@@ -1,0 +1,19 @@
+
+<title>话题导航</title>
+<link rel='stylesheet' href='/stylesheets/zhihu/style.css' />
+
+<h1>话题导航</h1>
+
+<ul class='topic-list'>
+	<% _.each(rows, function(item) { %>
+
+		<li><a href='/douban/topic/<%= item.name %>'>
+			<span class='name'><%= item.name %></span>
+				
+			</a>
+		</li>
+	
+	<% }) %>
+
+</ul>
+
