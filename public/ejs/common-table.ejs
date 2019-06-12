@@ -1,0 +1,36 @@
+        <colgroup>
+
+            <col class='col1' />
+            <col class='col2' />
+            <col class='col3' />
+            <col class='col4' />
+            <col class='col5' />
+            <col class='col6' />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>content</th>
+                <th>item</th>
+                <th>tag</th>
+                <th>type</th>
+                <th>time</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <% rows.forEach(function(row) { %>
+            <tr id='<%= row.id %>' data='<%= JSON.stringify(row) %>'>
+                <td>
+                    <span><%= row.id %>
+                    </span><a class='a-edit'>编辑</a>
+                    </span><a class='a-delete'>删除</a>
+                </td>
+                <td><%-eval(EJSMap.js(type, mainType))  || '' %></td>
+                <td><%= row.item || ''%></td>
+                <td><%= row.tag || '' %></td>
+                <td><%= data.typeMap[row.type] || '' %></td>
+                <td><%= new Date(row.dateposted).format() || ''%></td>
+            </tr>
+            <% }) %>
+        </tbody>

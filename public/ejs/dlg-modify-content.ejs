@@ -1,0 +1,7 @@
+
+<% for(var key in row) { %>
+<div class="row">
+	<label for=""><%= key %>
+		<input type="text" id='<%= key %>' value='<%= row[key] %>'/></label>
+</div>
+<% } %>

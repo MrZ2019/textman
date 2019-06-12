@@ -1,0 +1,35 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    color: #555;
+    position: fixed;
+    top: 64px;
+    left: 24px;
+    list-style: none;
+    line-height: 24px;
+}
+ul li {
+    cursor: pointer;
+}
+ul li:hover {
+    color: #222;
+}
+
+audio {
+    opacity: .2;
+    position: fixed;
+}
+
+audio:hover {
+    opacity: .7
+}
+.gallery {
+    text-align: center;
+}
+.gallery img{
+    max-width: 100%;
+    max-height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}

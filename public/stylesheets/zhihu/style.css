@@ -1,0 +1,263 @@
+body {
+    padding: 10px;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h1 > *{
+    vertical-align: middle;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+li {   
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #bbb;
+    list-style: none;
+}
+
+.list2 li.answer {
+    border: 1px solid forestgreen;
+    padding: 12px;
+    font-size: 13px;
+    margin-bottom: 48px;    
+}
+
+li .content {
+	white-space: pre-line;
+}
+img {
+	max-width: 490px;
+	margin:12px;
+}
+
+.user-img {
+    width: 48px;
+    display: inline-block;
+    margin: 0 8px;
+}
+.top > * {
+    vertical-align: middle;
+}
+
+span.username {
+    font-weight: bold;
+}
+
+.bio {
+    color: #777;
+}
+
+.date {
+    color: #999;
+    margin-left: 12px;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+.desc {
+    margin: 32px 8px 48px;
+    color:#222;
+    font-size: 14px;
+}
+.list2  {
+    text-align: left;
+}
+
+.list2 li {
+    padding: 6px;
+    cursor: default;
+}
+
+.list2 li .user-img{
+    width: 32px;
+}
+.to-user {
+    color: #999;
+}
+.to-user span.username {
+    color:#777;
+}
+/* topic */
+h1 {
+    text-align: center;
+}
+img.topic {
+    width: 64px;
+    vertical-align: middle;
+}
+
+img.topic + a {
+    vertical-align: middle;
+    font-size: 18px;
+}
+.topic-desc {
+    font-size: 14px;
+    color:#333;
+    margin: 4px 16px 24px 16px;
+    line-height: 22px;
+}
+.topic-list {
+}
+.topic-list li {
+    display: inline-block;      
+}
+ul {
+    text-align: center;
+}
+.question-list li{
+    display: inline-block;
+    margin: 8px 12px;
+}
+li {
+    margin: 12px 8px;
+    padding: 0;
+}
+li > a {
+    display: inline-block;
+    padding: 12px 24px;
+}
+li:hover {
+    border-color: orange;
+
+}
+li:hover .name{
+    color: orange;   
+}
+/* answer */
+
+.answer-list li {
+    padding: 12px;
+}
+
+.answer-list.list2 li .user-img{
+    width: 48px;
+}
+
+li img.thumb {
+    display: none;
+}
+li.collapse .content {
+    max-height: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li.collapse .content img {
+    display: none;
+}
+li.collapse .content img.thumb {
+    float: left;
+    max-width: 200px;
+    display: inline-block;
+}
+
+/* comment */
+.answer-box {
+    border: 1px solid forestgreen;
+    padding: 12px;
+    margin: 12px auto;
+    white-space: pre-line;
+    font-size: 13px;
+    margin-bottom: 48px;
+}
+
+a.comment {
+    font-size: 12px;
+    color: #777;
+    line-height: 12px;
+    text-decoration: underline;
+    margin-left: 0px;    
+}
+
+
+.btn-collapse {
+    background: #81baeb;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+}
+
+.btn-collapse i {
+    background: url(./imgs/sprites.png) -70px -38px no-repeat;
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+}
+
+li span.show-all {
+    color: teal;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 12px;
+    display: none;
+}
+
+.zh-backtotop {
+    position:fixed;
+    bottom:113px;
+    right:48px;
+    z-index:19;
+    display: none;
+}
+.zh-backtotop .btn-action {
+    display:block;
+    width:38px;
+    height:38px;
+    background-color:#ddd;
+    border-radius:3px;
+    border:0;
+    cursor:pointer;
+    position:relative
+}
+.zh-backtotop .arrow,.zh-backtotop .stick {
+    position:absolute;
+    right:0;
+    left:0;
+    margin:auto
+}
+.zh-backtotop .arrow {
+    width:0;
+    height:0;
+    top:-1px;
+    border:9px solid transparent;
+    border-bottom-color:#aaa
+}
+.zh-backtotop .stick {
+    width:8px;
+    height:14px;
+    top:15px;
+    border-radius:1px;
+    background-color:#aaa
+}
+li.collapse .show-all {
+    display: inline-block; 
+}
+
+.note-content {
+    border: 1px solid #eee;
+    font-size: 12px;
+    padding: 10px;
+    white-space: pre-line;
+    color: #222;
+}

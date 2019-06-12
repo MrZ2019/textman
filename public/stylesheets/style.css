@@ -1,0 +1,32 @@
+body {
+  padding: 12px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#btn-open-dlg {
+	margin: 4px 2px;
+}
+
+.bg-green {
+	background: forestgreen;
+	color: #fff;
+}
+
+.table-songs tr:not(.bg-green):hover {
+	background: hsl(120,20%,80%);
+	cursor: default;
+}
+
+#dlg-add-item .modal-title.class1 {
+	display: none;
+}
+#dlg-add-item.mode-edit .modal-title.normal {
+	display: none;
+}
+#dlg-add-item.mode-edit .modal-title.class1 {
+	display: inline-block;
+}
