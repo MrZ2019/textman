@@ -30,6 +30,10 @@ var OBJTable= {
 			'db': 'mynote'
 		},
 		{
+			'name': 'knowledge',
+			'db': 'mynote'
+		},
+		{
 			'name': 'treasure',
 			'db': 'mynote'
 		},

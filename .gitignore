@@ -1,0 +1,5 @@
+/.vscode
+/database
+/db
+/node_modules
+/routes/db

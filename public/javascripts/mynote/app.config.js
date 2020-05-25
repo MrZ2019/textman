@@ -108,6 +108,62 @@ var subcats1 =
             
             
             var subcats3 = 
+            [
+            {
+                id: -1,
+                name: '全部'
+            },
+            {
+                id: -2,
+                name: '收藏'
+            },
+            {
+                id: 0,
+                name: 'HTML/CSS/JS'
+            },
+            {
+                id: 1,
+                name: 'ES6/H5/CSS3'
+            },
+            {
+                id: 2,
+                name: 'Angular/Vue/React'
+            },
+            {
+                id: 3,
+                name: 'NodeJS'
+            },            
+            {
+                id: 13,
+                name: '框架'
+            },            
+            {
+                id: 14,
+                name: '小程序'
+            },            
+            {
+                id: 15,
+                name: '前端圈'
+            },            
+            {
+                id: 4,
+                name: '数据库'
+            },
+            {
+                id: 5,
+                name: 'Java'
+            },
+            {
+                id: 6,
+                name: 'Linux'
+            }            
+,
+            {
+                id: 7,
+                name: '编程周边'
+            }            
+            ]             
+            var subcats31 = 
 			[
 			{
 				id: -1,
@@ -119,49 +175,9 @@ var subcats1 =
 			},
 			{
 				id: 0,
-				name: 'HTML/CSS/JS'
+				name: '马克思主义原理'
 			},
-			{
-				id: 1,
-				name: 'ES6/H5/CSS3'
-			},
-			{
-				id: 2,
-				name: 'Angular/Vue/React'
-			},
-			{
-				id: 3,
-				name: 'NodeJS'
-			},			
-			{
-				id: 13,
-				name: '框架'
-			},			
-			{
-				id: 14,
-				name: '小程序'
-			},			
-			{
-				id: 15,
-				name: '前端圈'
-			},			
-			{
-				id: 4,
-				name: '数据库'
-			},
-			{
-				id: 5,
-				name: 'Java'
-			},
-			{
-				id: 6,
-				name: 'Linux'
-			}			
-,
-			{
-				id: 7,
-				name: '编程周边'
-			}			
+					
 			]           
             var subcats4 = 
 			[
@@ -325,6 +341,7 @@ var DataCONFIG = {
                     12: '文艺',
                     13: '人生路标',
                     14: '不良习惯',
+                    15: '梦境',
                     '-3': '美好万物'
                 }
             }       
@@ -348,6 +365,19 @@ var DataCONFIG = {
                     5: 'Java',
                     6: 'Linux',
                     7: '编程周边'
+                }
+            }       
+        ]
+    },
+    {
+        name: '知识',
+        list: [
+            {
+                name: 'knowledge',
+                tableName: 'knowledge',
+                typeMap: {
+                    '0': '马克思主义原理',
+                    
                 }
             }       
         ]
