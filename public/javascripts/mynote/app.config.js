@@ -1,6 +1,6 @@
-var CONFIG = {
+﻿var CONFIG = {
     pageSize: 50,
-    slideInterval: 3000
+    slideInterval: 4000
 }
 var subcats1 = 
 			[
